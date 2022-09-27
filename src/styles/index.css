@@ -128,3 +128,112 @@ hr.border {
 .nav {
   cursor: pointer;
 }
+
+.card {
+  display: flex;
+  flex-flow: column wrap;
+  background: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgb(230, 229, 229);
+  max-width: 60vw;
+  height: 100%;
+}
+
+/* Button */
+.simple-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #ffa17a; */
+  border-radius: 8px;
+  /* color: white; */
+  padding: 15px 15px;
+  margin: 5px;
+  border: none;
+  height: 30px;
+  box-shadow: 0px 8px 15px rgba(0 0 0 / 0.10);
+  cursor: pointer;
+  outline: none;
+  font-size: 15px;
+}
+
+.simple-button:hover {
+  background-color: #ffbe7e;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* || Appointments View */
+
+#time {
+  margin-top: 8px;
+}
+
+.appointment-action {
+  display: flex;
+  margin: 10px 0;
+}
+
+.button-group-link {
+  padding: 0 8px;
+  text-decoration: none;
+}
+
+.appointment-time {
+  background-color: #fef0f0;
+  border-radius: 10px;
+  padding: 4px 6px;
+  color: #ff4a86;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.new-patient-flag {
+  display: flex;
+  color: black;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#appointment-card a {
+  text-decoration: none;
+}
+
+#patient-link {
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+#patient-link:hover {
+  color: #eb8153;
+  cursor: pointer;
+}
+
+#visit-type {
+  color: #6f6f6f;
+  font-size: 15px;
+  text-decoration: none;
+  margin-top: 4px;
+}
+
+.links-to-patient-action {
+  text-align: end;
+  margin: 5px;
+}
+
+#appt-notes,
+#treatment-plan {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: #6f6f6f;
+  font-size: 15px;
+  text-decoration: none;
+  margin-top: 4px;
+}

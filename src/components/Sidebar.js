@@ -1,9 +1,10 @@
+import Profileimg from '../img/profile_image.jpeg'
 const Sidebar = () => {
     return (
         <div className='sidebar'>
             <div className='menu'>
                 <div className='profile'>
-                    <img className='profile-image' alt='user' src='./images/profile_image.jpeg'></img>
+                    <img className='profile-image' alt='user' src={Profileimg}></img>
                     <p className='welcome'>Welcome, Dr. Smith</p>
                     <div className='date-today'>March 21, 2022</div>
                 </div>
